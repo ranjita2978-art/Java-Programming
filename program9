@@ -1,0 +1,16 @@
+package java;
+
+public class consructor 
+consructor()
+{
+	System.out.println("asdf");
+}
+consructor(int a)
+{
+	System.out.println("  "+a);
+}
+public static void main(String[]agrs)
+{
+	consructor bb = new consructor();
+	consructor kk = new consructor(50);
+}
